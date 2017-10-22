@@ -23,6 +23,7 @@ int main()
 	
 	printArray(vetor);
 
+	free(vetor);
 
 	return(0);
 }
