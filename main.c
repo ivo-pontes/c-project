@@ -21,8 +21,6 @@ int main()
 
 	bubbleSort(vetor);
 	
-	printArray(vetor);
-
 	free(vetor);
 
 	return(0);
