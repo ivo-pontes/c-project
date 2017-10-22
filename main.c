@@ -21,7 +21,9 @@ int main()
 
 	bubbleSort(vetor);
 	
+	free(vetor);
 
+	return(0);
 }
 
 void bubbleSort(int *array)
